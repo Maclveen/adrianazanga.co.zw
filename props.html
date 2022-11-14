@@ -26,42 +26,99 @@
 </script>
     
 </head>
-<!--<body bgcolor="grey"><--#800020 maroon-->
-<body style="background-color: #696969;"><!--grey: #808080, dimgrey: #696969-->
+<body>
 
-<section class="header">
+<section class="sub-header">
     <nav>
-        <a href="index.html"><img src="icons/logo.webp"></a>
+        <a href="index.html"><img src="images/logo2.webp"></a>
         <div class="nav-links" id="navLinks">
             <i class="fa fa-times" onclick="hideMenu()"></i>
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="curtains.html">CURTAINS & BEDDING</a></li>
-                <li><a href="intdecor.html">INTERIOR DECOR</a></li>
-                <li><a href="latest.html">GALLERY</a></li>
                 <li><a href="about.html">ABOUT</a></li>
+                <li><a href="curtains.html">CURTAINS & BEDDING</a></li>
+                <li><a href="props.html">PROPS</a></li>
+                <li><a href="intdecor.html">INTERIOR DECOR</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </div>
         <i class="fa fa-bars" onclick="showMenu()"></i>
     </nav>
-
-    <div class="text-box">
-        <!---<h1 style="font: ">Your Interior Sprucer</h1>--->
-        <img src="images/AdRo4.png">
-        <p>
-            The house interior need not be boring abode.<br>
-            Fabrics, design and rearrangement of your furniture pieces can make your home your best place in the world
-        </p>
-        <a href="curtains.html" class="hero-btn">Click To See Our Works</a>
-    </div>
+    <h1>Props & Pieces</h1>
 </section> 
-  
+
+<!--------------Interior Decor------------------------------------->
+<section class="intdecor-content">
+    <div class="row">
+        <div class="intdecor-left">
+            <img src="images/Lounge2.webp">
+            <h2>Interior Decor</h2>
+            <p>
+                Bedrooms: 
+                Items available include: sheets, cushions, pillows, duvets for all bedrooms; 3 types: kids, teens, adults.
+            </p><br>
+            <p>
+                Kitchens: 
+                We have curtain designs for 4 kitchen types.
+            </p><br>
+            <p>
+                Lounges: 
+                Seven different items for the lounge; table, curtains, cushions, seat covers, head rests, arm rests, stools,
+            </p><br>
+            <p>
+                Dinning Areas: 
+                Five designs for the dinning area.
+            </p><br>
+            <p>
+                Bathrooms: 
+                Curtains, shower curtains, toilet seats, toilet mats, etc.
+            </p>
+
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form class="comment-form" action="commenthandler.php" method="post">
+                    <input type="text" placeholder="Enter Name" name="name"><br><br>
+                    <input type="email" placeholder="Enter Email" name="visitorEmail"><br><br>
+                    <textarea rows="5" placeholder="Your comment" name="message">   
+                    </textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="intdecor-right">
+            <h3>Decor Categories</h3>
+            <div>
+                <span>Bedrooms</span>
+                <span>3</span>
+            </div>
+            <div>
+                <span>Kitchens</span>
+                <span>4</span>
+            </div>
+            <div>
+                <span>Lounges</span>
+                <span>7</span>
+            </div>
+            <div>
+                <span>Dinning Areas</span>
+                <span>5</span>
+            </div>
+            <div>
+                <span>Bathrooms</span>
+                <span>4</span>
+            </div>
+        </div>
+    </div>
+</section>
+
 <!--------------Footer------------------------------------->
 <section class="footer">
-    <!---<h4>About Us</h4>
-    <p>We rule down here!</p>
-    <div class="icons">
+    <h4>About Us</h4>
+    <p>
+        We rule down here!
+    </p>
+    <!---<div class="icons">
         <i class="fa fa-facebook"><a href="https://www.facebook.com/adrianarosaniinteriors/"></a></i> 
         <i class="fa fa-instagram"><a href="https://www.instagram.com/adrianarosani_interiors/"></a></i> 
         <i class="fa fa-pinterest"><a href="https://www.pinterest.com/adrianazanga/adriana-rosani-interiors/"></a></i> 
@@ -71,7 +128,7 @@
         <a href="https://www.instagram.com/adrianarosani_interiors/"><img src="icons/instagram3.png"></a>
         <a href="https://www.pinterest.com/adrianazanga/adriana-rosani-interiors/"><img src="icons/pinterest5.png"></a>
     </div>
-    <!--<p>Made with <i class="fa fa-heart-o"></i> by Kamba Huru</p>-->
+    <p>Made with <i class="fa fa-heart-o"></i> by Kamba Huru</p>
 </section>
 
 <a href="#" class="scroll-btn">

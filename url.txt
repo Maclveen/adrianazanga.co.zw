@@ -1,0 +1,35 @@
+https://dceqfnhz374xqy57igtkww-on.drv.tw/www.adrianazanga.com/
+
+<a href="" target="_blank "></a>
+
+lookatit.epizy.com
+
+Account Details
+Username	epiz_30456466
+Password	ct4z27wAGeS0m
+Status	
+Label	Website for lookatit.epizy.com
+Main Domain	4rybisyx.epizy.com
+Website IP	(unknown)
+Hosting Volume	(unknown)
+Created on	2021-11-26
+
+MySQL Details
+MySQL Username	epiz_30456466
+MySQL Password	ct4z27wAGeS0m
+MySQL Hostname	sqlXXX.epizy.com
+(check the control panel)
+MySQL Port (optional)	3306
+Database Name	epiz_30456466_XXX
+(create this in the control panel)
+
+FTP Details
+FTP Username	epiz_30456466
+FTP Password	ct4z27wAGeS0m
+FTP Hostname	ftpupload.net
+FTP Port (optional)	21
+
+Domains and Subdomains
+DOMAIN	TYPE	FILE MANAGER
+lookatit.epizy.com	Subdomain	(unavailable)
+1 total domains
