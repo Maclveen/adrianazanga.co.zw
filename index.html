@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Interior Decor">
+    <meta name="keywords" content="Interior Decor, curtains, Adriana Rosani, adriana rosani interiors, bedding, curtains and bedding, duvets, sheets, bed covers, cushions, bedrooms, lounges, Robin House, Adriana Zanga">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <title>Adriana Rosani Zanga</title>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1ZVFJ31QV7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1ZVFJ31QV7');
+</script>
+    
+</head>
+<body bgcolor="silver"><!--#800020-->
+
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="icons/logo.webp"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="curtains.html">CURTAINS & BEDDING</a></li>
+                <li><a href="intdecor.html">INTERIOR DECOR</a></li>
+                <li><a href="latest.html">GALLERY</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <!---<h1 style="font: ">Your Interior Sprucer</h1>--->
+        <img src="images/AdRo4.png">
+        <p>
+            The house interior need not be boring abode.<br>
+            Fabrics, design and rearrangement of your furniture pieces can make your home your best place in the world
+        </p>
+        <a href="curtains.html" class="hero-btn">Click To See Our Works</a>
+    </div>
+</section> 
+  
+<!--------------Footer------------------------------------->
+<section class="footer">
+    <!---<h4>About Us</h4>
+    <p>We rule down here!</p>
+    <div class="icons">
+        <i class="fa fa-facebook"><a href="https://www.facebook.com/adrianarosaniinteriors/"></a></i> 
+        <i class="fa fa-instagram"><a href="https://www.instagram.com/adrianarosani_interiors/"></a></i> 
+        <i class="fa fa-pinterest"><a href="https://www.pinterest.com/adrianazanga/adriana-rosani-interiors/"></a></i> 
+    </div>--->
+    <div class="iconz">
+        <a href="https://www.facebook.com/adrianarosaniinteriors/"><img src="icons/facebook1.png"></a>
+        <a href="https://www.instagram.com/adrianarosani_interiors/"><img src="icons/instagram3.png"></a>
+        <a href="https://www.pinterest.com/adrianazanga/adriana-rosani-interiors/"><img src="icons/pinterest5.png"></a>
+    </div>
+    <!--<p>Made with <i class="fa fa-heart-o"></i> by Kamba Huru</p>-->
+</section>
+
+<a href="#" class="scroll-btn">
+    <i class="fas fa-angle-up"></i>
+</a>
+
+<!--------------Javascript for Toggle Menu----------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu()
+    {
+        navLinks.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLinks.style.right = "-200px";
+    }
+</script>
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
